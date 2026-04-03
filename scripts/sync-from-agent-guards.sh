@@ -8,7 +8,7 @@ Usage:
   ./scripts/sync-from-agent-guards.sh --source /path/to/agent-guards [--check]
 
 Options:
-  --source PATH   Path to the agent-guards repo that owns the canonical skill
+  --source PATH   Path to the agent-guards repo to sync from
   --check         Exit non-zero if mirrored files differ from the source
   -h, --help      Show this help text
 EOF

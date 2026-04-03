@@ -84,9 +84,9 @@ skills-audit/
 └── scripts/
 ```
 
-## Source Of Truth
+## Maintainer Sync
 
-The canonical skill content lives in `agent-guards` and is mirrored into this repo.
+If you also maintain `agent-guards`, you can mirror the shared skill payload into this repo.
 
 Mirrored files:
 
@@ -100,7 +100,7 @@ OSS-only files in this repo:
 - `examples/`
 - `scripts/`
 
-To resync from the source repo:
+To resync from `agent-guards`:
 
 ```bash
 ./scripts/sync-from-agent-guards.sh --source /path/to/agent-guards
