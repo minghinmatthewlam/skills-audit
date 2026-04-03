@@ -50,7 +50,7 @@ Use `skills-audit` when you want to:
 ## Example Prompt
 
 ```text
-Audit the skills in this repo. Check both .claude/skills and .agents/skills, score each one, and tell me the top fixes plus the highest-value missing skills.
+Use /skills-audit to audit our skills.
 ```
 
 Example scorecard output: [examples/sample-scorecard.md](examples/sample-scorecard.md)
